@@ -30,7 +30,7 @@ body{
   position: relative;
   font-size: 20px;
   font-weight: 600;
-    color: #f9e45b;
+    color: rgb(244, 152, 71);
 }
 .wrapper h2::before{
   content: '';
@@ -39,7 +39,7 @@ body{
   bottom: 0;
   height: 3px;
   border-radius: 12px;
-  background:#f9e45b;
+  background:rgb(244, 152, 71);
 }
 .wrapper form{
   margin-top: 30px;
@@ -55,34 +55,34 @@ form .input-box input{
   padding: 0 15px;
   font-size: 17px;
   font-weight: 400;
-  color:blue;
-  border: 2px solid #f9e45b;
+  color:black;
+  border: black
   border-bottom-width: 2.5px;
   border-radius: 6px;
 }
 .input-box input:focus,
 .input-box input:valid{
-  border-color: #f9e45b;
+  border-color: black;
 }
 form .policy{
   display: flex;
   align-items: center;
 }
 form h3{
-  color: blue;
+  color: rgb(244, 152, 71);
   font-size: 14px;
   font-weight: 500;
   margin-left: 10px;
 }
 .input-box.button input{
-  color: blue;
+  color: rgb(244, 152, 71);
   letter-spacing: 1px;
   border: none;
-  background: #f9e45b;
+  background: rgb(226, 226, 226);
   cursor: pointer;
 }
 .input-box.button input:hover{
-  background:#f9e45b;
+  background:black;
 
 }
 form .text h3{
@@ -91,7 +91,7 @@ form .text h3{
  text-align: center;
 }
 form .text h3 a{
-  color: blue;
+  color: rgb(244, 152, 71);
   text-decoration: none;
 }
 form .text h3 a:hover{
